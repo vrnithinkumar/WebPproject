@@ -1,0 +1,155 @@
+	body {
+		padding: 0;
+		margin: 0;
+		background:url("green.jpg") no-repeat center center fixed;
+	}
+	#header {
+		padding: 20px 20px 10px;
+		 background: rgba(0,0,0,0.2);
+		//background-color: rgb(116, 192, 207,0.65);
+		display:block;
+		/*border: 1px solid #bbd;*/
+		text-align: center;
+		color: #fefefe;
+		
+	}
+
+	h1 {
+		margin: 16px 0 8px;
+	}
+
+	#wrapper {
+		margin: 10px;
+	}
+	#nitclogo {
+		padding: 10px;
+		margin-right: 600px;
+		background : rgb(255, 255, 255,0.75);
+		text-align: center;
+		min-width: 320px;
+	}
+	#nitclogo img {
+		width: 320px;
+	}
+	#adminform, #studentsform {
+		float: right;
+		width: 260px;
+		margin: 0 8px;
+		padding: 10px;
+		 background: rgba(0,0,0,0.75);
+		//background-color: rgb(116, 192, 207,0.65);
+		display:block;
+		/*border: 1px solid #bbd;*/
+		text-align: center;
+		height: 200px;
+		color: #fefefe;
+	}
+	#adminform:hover,#studentsform:hover{
+		box-shadow:     inset 0 0 10px white;
+		background: rgba(0,0,0,0.5);
+	}
+	input[type=text], input[type=password] {
+		width: 256px;
+		height: 35px;
+		border-radius: 4px;
+		font-size: 16px;
+		background-color: #ffffff;
+		border: 2px solid green;
+
+	}
+	#adminform input[type=submit],#studentsform input[type=submit] {
+	/*background: #0044cc;*/
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+	background-repeat: repeat-x;
+	padding: 11px 19px;
+	font-size: 17.5px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	}
+	#adminform input[type=submit]:hover,#studentsform input[type=submit]:hover
+	{
+	color: #fffff0;
+	background-color: #0044cc;
+	}
+	input {
+		margin: 3px;
+	}
+	form {
+		margin: 0;
+	}
+	#footer {
+	display:block;
+		padding: 20px 20px 10px;
+		background : rgb(0, 0, 0,0.75); /*rgb(225, 91, 80);*/
+		text-align: center;
+		color: #433;
+	}
+
+.wrapper {
+margin: 50px auto;
+width: 280px;
+height: 370px;
+background: white;
+border-radius: 10px;
+-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+position: relative;
+z-index: 90;
+}
+
+.ribbon-wrapper-green {
+width: 85px;
+height: 88px;
+overflow: hidden;
+position: absolute;
+top: -3px;
+left: -3px;
+}
+
+.ribbon-green {
+font: bold 15px Sans-Serif;
+color: red;
+text-align: center;
+text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+-webkit-transform: rotate(-45deg);
+-moz-transform:    rotate(-45deg);
+-ms-transform:     rotate(-45deg);
+-o-transform:      rotate(-45deg);
+position: relative;
+padding: 7px 0;
+right: 30px;
+top: 15px;
+width: 120px;
+background-color: #BFDC7A;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A),   to(#8EBF45)); 
+background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
+background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
+background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
+background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+color: #6a6340;
+-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+-moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before, .ribbon-green:after {
+content: "";
+border-top:   3px solid #6e8900;   
+border-left:  3px solid transparent;
+ border-right: 3px solid transparent;
+position:absolute;
+bottom: -3px;
+}
+
+.ribbon-green:before {
+right: 0;
+}
+.ribbon-green:after {
+ left: 0;
+}
